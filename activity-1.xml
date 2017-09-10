@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#faff78"
+    tools:context="id.co.decoded.moeslim.first100917.mainActivity">
+
+    <TextView
+        android:background="#f4d9d9"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txtText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PRINT.in"
+        android:textSize="40dp"
+        android:textColor="#000"
+        android:gravity="left"/>
+
+    <TextView
+        android:layout_below="@id/txtText1"
+        android:id="@+id/txtText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff"
+        android:text="to fast for your work and documentation"
+        android:textSize="15dp"
+        android:background="#d71a1a"
+        android:gravity="left"/>
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/txtText2"
+        android:id="@+id/imgPic"
+        android:background="#5964f7"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/fax" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/imgPic"
+        android:id="@+id/txtLay"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visit our Website:"
+        android:background="#a9a2a2"
+        android:gravity="right"/>
+
+    <TextView
+        android:layout_below="@id/txtLay"
+        android:id="@+id/txtWeb"
+        android:textColor="#ffffff"
+        android:background="#f52fb3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="www.print.in"
+        android:gravity="right"/>
+
+</RelativeLayout>
